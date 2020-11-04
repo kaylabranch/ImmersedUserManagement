@@ -6,6 +6,7 @@
 
     button {
         @extend %input;
+        font-size: 14px;
         margin-left: 8px;
         transition: border-color .4s ease-in-out;
 
@@ -18,5 +19,18 @@
             color: $primaryDark;
             pointer-events: none;
         }
+    }
+}
+
+@media (max-width: $mobile) {
+    .sortButtons {
+        margin-top: 16px;
+        margin-right: 32px;
+    }
+}
+
+@media (max-width: $mobile-xs) {
+    .sortButtons {
+        margin-right: 0;
     }
 }
