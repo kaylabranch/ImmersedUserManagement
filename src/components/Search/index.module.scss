@@ -3,3 +3,10 @@
 .search {
     @extend %input;
 }
+
+@media (max-width: $mobile) {
+    .search {
+        padding: 12px 12px 10px;
+        width: 100%;
+    }
+}

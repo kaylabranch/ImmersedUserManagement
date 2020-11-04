@@ -11,7 +11,7 @@ const SortBy = ({ orderBy, setOrderByHandler }) => (
             Department
         </button>
         <button className={orderBy === 'accountLocked' && css.active} onClick={(e) => setOrderByHandler('accountLocked')}>
-            Account Locked
+            Locked
         </button>
     </div>
 )

@@ -2,13 +2,29 @@
 
 .sortOrder {
     align-items: center;
+    background: none;
+    border: none;
+    color: $light;
     display: flex;
-    
-    button {
-        background: none;
-        border: none;
-        color: $light;
+    font-size: 16px;
+    font-weight: $sans-bold;
+    padding: 0;
+
+    svg {
         font-size: 20px;
         line-height: 1;
+        padding: 6px 0 6px 6px;
+    }
+}
+
+@media (max-width: $mobile) {
+    .sortOrder {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: $mobile-xs) {
+    .sortOrder {
+        margin-top: 10px;
     }
 }
