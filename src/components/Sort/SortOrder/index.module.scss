@@ -1,0 +1,14 @@
+@import '../../../scss/variables';
+
+.sortOrder {
+    align-items: center;
+    display: flex;
+    
+    button {
+        background: none;
+        border: none;
+        color: $light;
+        font-size: 20px;
+        line-height: 1;
+    }
+}

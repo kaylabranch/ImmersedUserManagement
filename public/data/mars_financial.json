@@ -1,0 +1,65 @@
+{
+    "companyLogo": "https://cdn.iconscout.com/icon/premium/png-256-thumb/mars-18-383954.png",
+    "companyName": "Mars Financial",
+    "companyId": 7107796354,
+    "administrators": [],
+    "subadministrators": [],
+    "teamList": [
+        {
+            "name": "Lil Laymore",
+            "avatar": "https://avatars.dicebear.com/api/female/lil.svg",
+            "email": "llaymore@mars.com",
+            "department": "Accounting",
+            "title": "Billing Coordinator",
+            "accountLocked": true
+        },
+        {
+            "name": "Marcus Moe",
+            "avatar": "https://avatars.dicebear.com/api/male/marcus.svg",
+            "email": "mmoe@mars.com",
+            "department": "Sales",
+            "title": "Associate Sales Specialist",
+            "accountLocked": false
+        },
+        {
+            "name": "Will Wyatt",
+            "avatar": "https://avatars.dicebear.com/api/male/will.svg",
+            "email": "wwyatt@mars.com",
+            "department": "Sales",
+            "title": "Sales Specialist",
+            "accountLocked": false
+        },
+        {
+            "name": "Beth Bryant",
+            "avatar": "https://avatars.dicebear.com/api/female/beth.svg",
+            "email": "bbryant@mars.com",
+            "department": "Sales",
+            "title": "Sales Specialist",
+            "accountLocked": false
+        },
+        {
+            "name": "Tyler Thompson",
+            "avatar": "https://avatars.dicebear.com/api/male/tyler.svg",
+            "email": "tthompson@mars.com",
+            "department": "Management",
+            "title": "CFO",
+            "accountLocked": false
+        },
+        {
+            "name": "Jayne Jerk",
+            "avatar": "https://avatars.dicebear.com/api/female/jane.svg",
+            "email": "jjerk@mars.com",
+            "department": "IT",
+            "title": "Systems Administrator",
+            "accountLocked": false
+        },
+        {
+            "name": "Zayne Zonk",
+            "avatar": "https://avatars.dicebear.com/api/male/zayne.svg",
+            "email": "zzonk@mars.com",
+            "department": "Sales",
+            "title": "Senior Sales Specialist",
+            "accountLocked": false
+        }
+    ]
+ }

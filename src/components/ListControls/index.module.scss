@@ -1,0 +1,16 @@
+@import '../../scss/variables';
+
+.listControls {
+    color: $light;
+    display: flex;
+    font-weight: $sans-bold;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+@media (max-width: $mobile) {
+    .listControls {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

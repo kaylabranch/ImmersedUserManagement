@@ -1,0 +1,5 @@
+@import '../../scss/elements';
+
+.search {
+    @extend %input;
+}

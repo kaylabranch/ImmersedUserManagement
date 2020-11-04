@@ -1,0 +1,50 @@
+@import '../../scss/variables';
+
+.listItem {
+    align-items: center;
+    background-color: $light;
+    border: 2px solid $accent;
+    border-radius: 10px;
+    display: flex;
+
+    + .listItem {
+        margin-top: 12px;
+    }
+}
+
+.avatar {
+    height: 100px;
+    margin: 12px 12px 0;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: $sans-bold;
+    line-height: 24px;
+}
+
+.titleContainer {
+    display: block;
+    margin: 6px 0;
+}
+
+.title {
+    + .department {
+        &::before {
+            content: ', ';
+        }
+    }
+}
+
+.department {
+    font-weight: $sans-light;
+}
+
+.email {
+    display: block;
+}
+
+.actionsList {
+    margin-left: auto;
+    text-align: right;
+}

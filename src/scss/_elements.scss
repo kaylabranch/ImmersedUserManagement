@@ -1,0 +1,14 @@
+@import 'reset-css';
+@import './variables';
+
+button {
+    cursor: pointer;
+}
+
+%input {
+    background-color: transparent;
+    border: 2px solid $primary;
+    border-radius: 4px;
+    color: $light;
+    padding: 8px;
+}

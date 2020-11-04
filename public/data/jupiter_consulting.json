@@ -1,0 +1,33 @@
+{
+    "companyLogo": "https://cdn.iconscout.com/icon/free/png-256/jupiter-planet-astrology-bigest-solar-system-gas-giant-3-20856.png",
+    "companyName": "Jupiter Consulting",
+    "companyId": 58495556487,
+    "administrators": [],
+    "subadministrators": [],
+    "teamList": [
+        {
+            "name": "Pat O'Brien",
+            "avatar": "https://avatars.dicebear.com/api/male/pat.svg",
+            "email": "pobrien@jupiter.com",
+            "department": "Delivery",
+            "title": "Solution Architect",
+            "accountLocked": false
+        },
+        {
+            "name": "Lauren Levels",
+            "avatar": "https://avatars.dicebear.com/api/female/lauren.svg",
+            "email": "llevels@jupiter.com",
+            "department": "Project Management",
+            "title": "Senior Project Manager",
+            "accountLocked": false
+        },
+        {
+            "name": "Well Dam",
+            "avatar": "https://avatars.dicebear.com/api/female/well.svg",
+            "email": "wdam@jupiter.com",
+            "department": "UX",
+            "title": "User Experience Designer",
+            "accountLocked": false
+        }
+    ]
+ }

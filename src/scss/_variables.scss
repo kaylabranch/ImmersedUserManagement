@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;800&display=swap');
+
+//FONTS
+$sans-serif: 'Mukta', sans-serif;
+$sans-light: 200;
+$sans-regular: 400;
+$sans-bold: 800;
+
+// COLORS
+$darkGrey: #777777;
+$offWhite: #F7F7F7;
+$plum: #2c0d44;
+$brick: #f55959;
+$lightGrey: #AAA;
+
+$dark: $darkGrey;
+$light: $offWhite;
+$primaryDark: $plum;
+$primary: lighten($plum, 30%);
+$accentDark: darken($brick, 20%);
+$accent: $brick;
+
+//WIDTHS
+%containerWidth {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+$mobile: 848px;

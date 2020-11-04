@@ -1,0 +1,9 @@
+@import '../../scss/variables';
+
+.container {
+    background-color: $primaryDark;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 36px 24px;
+}

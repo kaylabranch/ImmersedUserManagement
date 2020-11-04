@@ -1,0 +1,28 @@
+@import '../../scss/variables';
+@import '../../scss/typography';
+
+.header {
+    align-items: center;
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.companyLogo {
+    border: 4px solid $light;
+    border-radius: 50%;
+    height: 75px;
+    margin-right: 24px;
+}
+
+.companyName,
+.subHeading {
+    color: $light;
+}
+
+.companyName {
+    @extend %heading;
+}
+
+.subHeading {
+    @extend %subheading;
+}
