@@ -8,7 +8,7 @@ const AddUserForm = ({ teamList, onAddUserHandler }) => (
         id='addUserForm'
         onSubmit={(e) => {
             e.preventDefault();
-            let isDuplicateUser = teamList.some(user => user.email == e.target.email.value);
+            let isDuplicateUser = teamList.users.some(user => user.email == e.target.email.value);
 
             if (!isDuplicateUser) {
                 let newUser = new User(
@@ -23,7 +23,7 @@ const AddUserForm = ({ teamList, onAddUserHandler }) => (
                 e.target.reset();
             }
             else {
-                console.log('user already in team');
+                alert('Email already exists! Try another.');
             }
         }}>
             <p className={css.heading}>Add a Team Member</p>

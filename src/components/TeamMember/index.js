@@ -2,7 +2,7 @@ import React from 'react';
 import { FaTrashAlt, FaPencilAlt, FaUnlock, FaLock } from 'react-icons/fa';
 import css from './index.module.scss';
 
-const TeamMember = ( { details }) => {
+const TeamMember = ( { details, onDeleteUserHandler }) => {
     if (details === null) {
         return null;
     }
@@ -47,8 +47,12 @@ const TeamMember = ( { details }) => {
                     </button>
                 </li>
                 <li className={css.actionItem}>
-                    <button className={css.unlock} title='Delete' aria-label='Delete'>
-                        <FaTrashAlt />
+                    <button 
+                        className={css.unlock} 
+                        title='Delete' 
+                        aria-label='Delete'
+                        onClick={() => onDeleteUserHandler(details.email)}>
+                            <FaTrashAlt />
                     </button>
                 </li>
             </ul>

@@ -4,7 +4,7 @@
     "companyId": 7107796354,
     "administrators": [],
     "subadministrators": [],
-    "teamList": [
+    "users": [
         {
             "name": "Lil Laymore",
             "avatar": "https://avatars.dicebear.com/api/human/lil.svg",
