@@ -4,8 +4,8 @@ import SortBy from '../Sort/SortBy';
 import SortOrder from '../Sort/SortOrder';
 import css from './index.module.scss';
 
-const ListControls = ({ setQueryTextHandler, orderBy, setOrderByHandler, orderDirection, setOrderDirectionHandler }) => (
-    <div className={css.listControls}>
+const ListControls = ({ isDisabled, setQueryTextHandler, orderBy, setOrderByHandler, orderDirection, setOrderDirectionHandler }) => (
+    <div className={css.listControls} data-isdisabled={isDisabled}>
         <Search setQueryTextHandler={setQueryTextHandler} />
         <SortBy orderBy={orderBy} setOrderByHandler={setOrderByHandler} />
         <SortOrder orderDirection={orderDirection} setOrderDirectionHandler={setOrderDirectionHandler} />

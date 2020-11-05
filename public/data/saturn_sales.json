@@ -7,7 +7,7 @@
     "teamList": [
         {
             "name": "Joe Janes",
-            "avatar": "https://avatars.dicebear.com/api/male/joe.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/joe.svg",
             "email": "jjanes@saturn.com",
             "department": "Sales",
             "title": "Sales Specialist",
@@ -15,7 +15,7 @@
         },
         {
             "name": "Meredith Myers",
-            "avatar": "https://avatars.dicebear.com/api/female/meredith.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/meredith.svg",
             "email": "mmyers@saturn.com",
             "department": "Sales",
             "title": "Senior Sales Specialist",
@@ -23,7 +23,7 @@
         },
         {
             "name": "Pat Pattinson",
-            "avatar": "https://avatars.dicebear.com/api/male/pat.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/pat.svg",
             "email": "ppattinson@saturn.com",
             "department": "Human Resources",
             "title": "Recruiter",
@@ -31,7 +31,7 @@
         },
         {
             "name": "Sam Stelt",
-            "avatar": "https://avatars.dicebear.com/api/female/sam.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/sam.svg",
             "email": "sstelt@saturn.com",
             "department": "IT",
             "title": "Web Developer",
@@ -39,7 +39,7 @@
         },
         {
             "name": "Lil Laymore",
-            "avatar": "https://avatars.dicebear.com/api/female/lil.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/lil.svg",
             "email": "llaymore@saturn.com",
             "department": "Accounting",
             "title": "Billing Coordinator",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Marcus Moe",
-            "avatar": "https://avatars.dicebear.com/api/male/marcus.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/marcus.svg",
             "email": "mmoe@saturn.com",
             "department": "Sales",
             "title": "Associate Sales Specialist",
@@ -55,7 +55,7 @@
         },
         {
             "name": "Will Wyatt",
-            "avatar": "https://avatars.dicebear.com/api/male/will.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/will.svg",
             "email": "wwyatt@saturn.com",
             "department": "Sales",
             "title": "Sales Specialist",
@@ -63,7 +63,7 @@
         },
         {
             "name": "Beth Bryant",
-            "avatar": "https://avatars.dicebear.com/api/female/beth.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/beth.svg",
             "email": "bbryant@saturn.com",
             "department": "Sales",
             "title": "Sales Specialist",
@@ -71,7 +71,7 @@
         },
         {
             "name": "Tyler Thompson",
-            "avatar": "https://avatars.dicebear.com/api/male/tyler.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/tyler.svg",
             "email": "tthompson@saturn.com",
             "department": "Management",
             "title": "CFO",
@@ -79,7 +79,7 @@
         },
         {
             "name": "Jayne Jerk",
-            "avatar": "https://avatars.dicebear.com/api/female/jane.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/jane.svg",
             "email": "jjerk@saturn.com",
             "department": "IT",
             "title": "Systems Administrator",
@@ -87,7 +87,7 @@
         },
         {
             "name": "Zayne Zonk",
-            "avatar": "https://avatars.dicebear.com/api/male/zayne.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/zayne.svg",
             "email": "zzonk@saturn.com",
             "department": "Sales",
             "title": "Senior Sales Specialist",

@@ -7,7 +7,7 @@
     "teamList": [
         {
             "name": "Pat O'Brien",
-            "avatar": "https://avatars.dicebear.com/api/male/pat.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/pat.svg",
             "email": "pobrien@jupiter.com",
             "department": "Delivery",
             "title": "Solution Architect",
@@ -15,7 +15,7 @@
         },
         {
             "name": "Lauren Levels",
-            "avatar": "https://avatars.dicebear.com/api/female/lauren.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/lauren.svg",
             "email": "llevels@jupiter.com",
             "department": "Project Management",
             "title": "Senior Project Manager",
@@ -23,7 +23,7 @@
         },
         {
             "name": "Well Dam",
-            "avatar": "https://avatars.dicebear.com/api/female/well.svg",
+            "avatar": "https://avatars.dicebear.com/api/human/well.svg",
             "email": "wdam@jupiter.com",
             "department": "UX",
             "title": "User Experience Designer",
