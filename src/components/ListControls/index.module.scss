@@ -6,6 +6,11 @@
     font-weight: $sans-bold;
     justify-content: space-between;
     margin: 32px 0;
+
+    &[data-isdisabled='true'] {
+        opacity: .5;
+        pointer-events: none;
+    }
 }
 
 @media (max-width: $mobile) {

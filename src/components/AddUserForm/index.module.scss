@@ -1,0 +1,72 @@
+@import '../../scss/variables';
+@import '../../scss/elements';
+
+.container {
+    color: $light;
+    display: flex;
+    flex-direction: column;
+    margin: 52px auto 0;
+    max-width: 400px;
+}
+
+.heading,
+.label {
+    font-weight: $sans-bold;
+}
+
+.heading {
+    font-size: 20px;
+    text-align: center;
+}
+
+.label {
+    margin: 16px 0 4px;
+}
+
+.input {
+    @extend %input;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.submitContainer {
+    align-self: center;
+    margin-top: 32px;
+    position: relative;
+
+    &::before,
+    &::after {
+        background-color: $primaryDark;
+        content: '';
+        display: block;
+        height: 30px;
+        pointer-events: none;
+        position: absolute;
+        transform: rotate(45deg);
+        width: 50px;
+    }
+
+    &::before {
+        bottom: -15px;
+        left: -20px;       
+    }
+
+    &::after {
+        top: -15px;
+        right: -20px;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all ease-in .2s;
+    }
+
+    .submit {
+        background-color: $accent;
+        border: 0;
+        color: $light;
+        cursor: pointer;
+        font-weight: $sans-bold;
+        padding: 14px 30px;
+    }
+}

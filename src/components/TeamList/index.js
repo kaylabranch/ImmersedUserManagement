@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
+import { addUser, deleteUser } from './actions';
 import ListControls from '../ListControls';
 import TeamMember from '../TeamMember';
+import AddUserForm from '../AddUserForm';
 import css from './index.module.scss';
 
-const TeamList = ({ teamList }) => {
+const TeamList = ({ teamList, onAddUser, onDeleteUser }) => {
     const [orderBy, setOrderBy] = useState('name');
     const [orderDirection, setOrderDirection] = useState('Ascending');
     const [queryText, setQueryText] = useState('');
@@ -15,7 +18,7 @@ const TeamList = ({ teamList }) => {
 
     let filteredList = teamList
     .sort((a, b) => {
-        if (a[orderBy].toString().toLowerCase() < b[orderBy].toString().toLowerCase()) { 
+        if (a[orderBy]?.toString().toLowerCase() < b[orderBy]?.toString().toLowerCase()) { 
             return -1 * order
         }
         else {
@@ -34,6 +37,7 @@ const TeamList = ({ teamList }) => {
     return (
         <section className={css.listContainer}>
             <ListControls
+                isDisabled={filteredList === null || filteredList.length <= 1}
                 setQueryTextHandler={setQueryText}
                 orderBy={orderBy}
                 setOrderByHandler={setOrderBy}
@@ -49,8 +53,18 @@ const TeamList = ({ teamList }) => {
                     }
                 </ul>
             }
+            <AddUserForm teamList={teamList} onAddUserHandler={onAddUser} />
         </section>
     );
 }
 
-export default TeamList;
+const mapStateToProps = state => ({
+	teamList: state.teamList
+});
+
+const mapDispatchToProps = dispatch => ({
+	onAddUser: user => dispatch(addUser(user)),
+	onDeleteUser: email => dispatch(deleteUser(email))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(TeamList);
