@@ -4,7 +4,7 @@
     "companyId": 923488273323,
     "administrators": [],
     "subadministrators": [],
-    "teamList": [
+    "users": [
         {
             "name": "Joe Janes",
             "avatar": "https://avatars.dicebear.com/api/human/joe.svg",

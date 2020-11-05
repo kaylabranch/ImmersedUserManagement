@@ -1,9 +1,11 @@
 // Configure Redux store
-import { createStore, combineReducers } from 'redux';
-import { teamList } from './components/TeamList/reducers';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import { isLoading, teamList } from './components/TeamList/reducers';
 
 // All defined reducers
 const reducers = {
+    isLoading,
     teamList
 };
 
@@ -11,4 +13,4 @@ const reducers = {
 const rootReducer = combineReducers(reducers);
 
 // Returns createStore with rootReducer
-export const configureStore = () => createStore(rootReducer);
+export const configureStore = () => createStore(rootReducer, applyMiddleware(thunk));

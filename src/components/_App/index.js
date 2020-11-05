@@ -1,5 +1,4 @@
 import React from 'react';
-import { hot } from 'react-hot-loader';
 import Header from '../Header';
 import TeamList from '../TeamList';
 import css from './index.module.scss';
@@ -11,8 +10,8 @@ import teamData from '/public/data/saturn_sales.json';
 const App = () => (
     <section className={css.container}>
         <Header companyLogo={teamData.companyLogo} companyName={teamData.companyName} />
-        <TeamList teamList={teamData.teamList} />
+        <TeamList />
     </section>
 )
 
-export default hot(module)(App);
+export default App;
