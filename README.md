@@ -5,7 +5,7 @@ While not perfect or complete, I think this is probably enough code to demonstra
 
 [View the app](https://immersedusermanagement.netlify.app/) live in a browser!
 
-Hosted free on Netlify. App status: [![Netlify Status](https://api.netlify.com/api/v1/badges/bca008e3-e0c3-4262-b7ad-bcb4420381a4/deploy-status)](https://app.netlify.com/sites/immersedusermanagement/deploys)
+Hosted free on and continuously deployed to Netlify. App status: [![Netlify Status](https://api.netlify.com/api/v1/badges/bca008e3-e0c3-4262-b7ad-bcb4420381a4/deploy-status)](https://app.netlify.com/sites/immersedusermanagement/deploys)
 
 ## To run locally
 Download or clone repo, run ```npm install```. Then run ```npm run dev``` to see dev site at ```localhost:3000```. Dist files are stored in memory unless you run ```npm run build``` to build dist files.
@@ -48,3 +48,4 @@ As a perfectionist, sending this off with items outstanding on this list is not 
 11. Look into using Redux persist to store data in local storage, less reliance on server.
 12. Replace hard-coded data with fetched data for company name, logo.
 13. Fix bug where lists that are already sorted confuse the Sort Order button.
+14. Scroll to newly added user in list immediately after adding.
