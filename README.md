@@ -1,12 +1,14 @@
 # ImmersedUserManagement
 A 'User Management' portal where administrators can access a list of their team members who are using the product. Admins can add, delete, edit, lock, or unlock users. Admins can also search and sort their listed team members.
 
+While not perfect or complete, I think this is probably enough code to demonstrate my knowledge of these technologies.
+
 [View the app](https://immersedusermanagement.netlify.app/) live in a browser!
 
-App status: [![Netlify Status](https://api.netlify.com/api/v1/badges/bca008e3-e0c3-4262-b7ad-bcb4420381a4/deploy-status)](https://app.netlify.com/sites/immersedusermanagement/deploys)
+Hosted free on Netlify. App status: [![Netlify Status](https://api.netlify.com/api/v1/badges/bca008e3-e0c3-4262-b7ad-bcb4420381a4/deploy-status)](https://app.netlify.com/sites/immersedusermanagement/deploys)
 
 ## To run locally
-Download or clone repo, run ```npm install```. Then run ```npm run dev``` to see dev site at localhost:3000. Dist files are stored in memory unless you run ```npm run build``` to build dist files.
+Download or clone repo, run ```npm install```. Then run ```npm run dev``` to see dev site at ```localhost:3000```. Dist files are stored in memory unless you run ```npm run build``` to build dist files.
 
 ## Packages used
 **React**
