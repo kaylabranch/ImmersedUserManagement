@@ -33,8 +33,6 @@ Small package to import icons.
 Small package to reset default browser styles.
 
 ## To Do List
-As a perfectionist, sending this off with items outstanding on this list is not something I want to do. However, I think it's good to get this out sooner than later, and these are the items I will continue to work on even as this repo is made public and the app is shared.
-
 1. Make prod Webpack config and update scripts to deploy prod React build instead of dev build.
 2. Style loading message.
 3. Style action buttons.
