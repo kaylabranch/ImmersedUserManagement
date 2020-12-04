@@ -1,8 +1,6 @@
 # User Management Portal
 A 'User Management' portal where administrators can access a list of their team members who are using the product. Admins can add, delete, edit, lock, or unlock users. Admins can also search and sort their listed team members.
 
-While not perfect or complete, I think this is probably enough code to demonstrate my knowledge of these technologies.
-
 [View the app](https://immersedusermanagement.netlify.app/) live in a browser!
 
 Hosted free on and continuously deployed to Netlify. App status: [![Netlify Status](https://api.netlify.com/api/v1/badges/bca008e3-e0c3-4262-b7ad-bcb4420381a4/deploy-status)](https://app.netlify.com/sites/immersedusermanagement/deploys)
