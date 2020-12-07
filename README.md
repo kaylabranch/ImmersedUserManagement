@@ -45,3 +45,4 @@ Small package to reset default browser styles.
 12. Replace hard-coded data with fetched data for company name, logo.
 13. Fix bug where lists that are already sorted confuse the Sort Order button.
 14. Scroll to newly added user in list immediately after adding.
+15. Implement persistence on server
